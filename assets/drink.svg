@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Illustration eines Getränks">
+  <rect width="900" height="900" rx="84" fill="#111111"/>
+  <circle cx="660" cy="185" r="112" fill="rgba(255,122,24,0.15)"/>
+  <path d="M302 190h184l-24 122H326z" fill="#ff7a18"/>
+  <path d="M266 312h256l-42 398c-4 37-34 65-71 65h-30c-37 0-67-28-71-65l-42-398Z" fill="#e53935"/>
+  <path d="M292 342h204l-34 326c-3 20-20 35-40 35h-56c-20 0-37-15-40-35l-34-326Z" fill="#ffd43a"/>
+  <rect x="424" y="106" width="34" height="128" rx="17" fill="#f7efe3" transform="rotate(16 441 170)"/>
+  <path d="M450 118c-36 53-50 88-52 138" fill="none" stroke="#f7efe3" stroke-width="18" stroke-linecap="round"/>
+  <path d="M340 510h120" stroke="#fff7de" stroke-width="16" stroke-linecap="round" opacity="0.55"/>
+</svg>

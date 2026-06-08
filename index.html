@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tobis Teller – Urban Fastfood mit Haltung</title>
+  <meta name="description" content="Tobis Teller. Smash-Burger, Bowls und Snacks für Leute, die Hunger ernst nehmen. Urban, direkt, jederzeit gut." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <!-- ── Header ──────────────────────────────── -->
+  <header class="site-header" style="position:sticky;top:0;z-index:100;">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Tobis Teller – Startseite">
+        <div class="brand-emblem">Tt</div>
+        <div class="brand-text">
+          <span class="brand-name">Tobis Teller</span>
+          <span class="brand-sub">Urban Fastfood · Köln</span>
+        </div>
+      </a>
+      <nav class="site-nav" id="site-nav" role="navigation" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="menu.html">Menü</a>
+        <a href="about.html">Über uns</a>
+        <a href="hours.html">Öffnungszeiten</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+      <div class="header-cta">
+        <a href="menu.html" class="btn btn-primary btn-sm">Jetzt bestellen</a>
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Navigation öffnen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Ticker ──────────────────────────────── -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Smash Burger</span><span class="dot">✦</span>
+      <span>Crunch Fries</span><span class="dot">✦</span>
+      <span>Spicy Bowls</span><span class="dot">✦</span>
+      <span>Late Night Energy</span><span class="dot">✦</span>
+      <span>Fresh Drops Daily</span><span class="dot">✦</span>
+      <span>Smash Burger</span><span class="dot">✦</span>
+      <span>Crunch Fries</span><span class="dot">✦</span>
+      <span>Spicy Bowls</span><span class="dot">✦</span>
+      <span>Late Night Energy</span><span class="dot">✦</span>
+      <span>Fresh Drops Daily</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <main>
+    <!-- ── Hero ────────────────────────────────── -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <div class="hero-eyebrow reveal">
+              <span class="eyebrow">Streetfood mit Signatur</span>
+            </div>
+            <h1 class="hero-title reveal reveal-delay-1">
+              Mehr Biss.<br><em>Mehr Nacht.</em><br>Mehr Teller.
+            </h1>
+            <p class="hero-desc reveal reveal-delay-2">
+              Tobis Teller ist kein Restaurant-Hochglanz, sondern ein ehrlicher Spot
+              mit Druck, Licht und einer Karte, die weiß, was sie will.
+            </p>
+            <div class="hero-actions reveal reveal-delay-3">
+              <a href="menu.html" class="btn btn-primary">Menü ansehen</a>
+              <a href="about.html" class="btn btn-outline">Unsere Story</a>
+            </div>
+            <div class="hero-stats reveal reveal-delay-4">
+              <div>
+                <span class="hero-stat-num">18+</span>
+                <span class="hero-stat-label">Gerichte</span>
+              </div>
+              <div>
+                <span class="hero-stat-num">4</span>
+                <span class="hero-stat-label">Kategorien</span>
+              </div>
+              <div>
+                <span class="hero-stat-num" data-live-day>—</span>
+                <span class="hero-stat-label">Heute</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal reveal-delay-2">
+            <div class="hero-card-main">
+              <div class="hero-badge">Signature Drop</div>
+              <img src="assets/hero-signature.svg" alt="Smoked Alley Burger – Signature-Gericht von Tobis Teller" />
+              <div class="hero-price-tag">€ 12,90</div>
+            </div>
+            <div class="hero-float-card fc-left">
+              <span class="fc-stars">★★★★★</span>
+              <span class="fc-label" style="margin-top:6px;">Kunden-Rating</span>
+              <span class="fc-value">4,9 / 5</span>
+            </div>
+            <div class="hero-float-card fc-bottom">
+              <div class="hero-badge" style="position:static;background:var(--ink);color:var(--lemon);font-size:0.68rem;">Täglich frisch</div>
+              <div>
+                <span class="fc-label">Smoked Alley</span>
+                <span class="fc-value" style="font-size:0.95rem;">Heiß raus, sauber gebaut.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Strip -->
+      <div class="hero-bottom-strip">
+        <div class="container">
+          <div class="feature-strip">
+            <div class="feature-item reveal">
+              <div class="feature-icon">🍔</div>
+              <div>
+                <span class="feature-label">Smash-Burger</span>
+                <span class="feature-sub">Geröstet, gepresst, direkt auf den Punkt.</span>
+              </div>
+            </div>
+            <div class="feature-item reveal reveal-delay-1">
+              <div class="feature-icon">🥣</div>
+              <div>
+                <span class="feature-label">Bowls & Snacks</span>
+                <span class="feature-sub">Frisch, kräftig, kein leeres Versprechen.</span>
+              </div>
+            </div>
+            <div class="feature-item reveal reveal-delay-2">
+              <div class="feature-icon">🌙</div>
+              <div>
+                <span class="feature-label">Late Night</span>
+                <span class="feature-sub">Fr & Sa bis 01:00 Uhr – für Abende ohne Ende.</span>
+              </div>
+            </div>
+            <div class="feature-item reveal reveal-delay-3">
+              <div class="feature-icon">📍</div>
+              <div>
+                <span class="feature-label">Köln · Neon District</span>
+                <span class="feature-sub">Musterstraße 24, zwischen Bahnhof und Block.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Editorial / Dark Section ──────────── -->
+    <section class="editorial section">
+      <div class="container">
+        <div class="editorial-inner">
+          <div>
+            <div class="editorial-eyebrow reveal">
+              <span class="eyebrow">Das Signature-Gericht</span>
+            </div>
+            <h2 class="editorial-title reveal reveal-delay-1">
+              Der Burger,<br>an dem<br><em>alles hängt.</em>
+            </h2>
+            <p class="editorial-desc reveal reveal-delay-2">
+              Der Smoked Alley Burger trägt die Marke: dunkle Röstaromen, kräftige Sauce,
+              klare Schichten. Kein überladener Teller, sondern ein Statement.
+            </p>
+            <div class="reveal reveal-delay-3">
+              <a href="menu.html" class="btn btn-fire">Zur Karte</a>
+            </div>
+
+            <div class="editorial-list reveal reveal-delay-4" style="margin-top:40px;">
+              <div class="editorial-list-item">
+                <span class="eli-num">01</span>
+                <div>
+                  <span class="eli-title">Reduziert statt beliebig</span>
+                  <span class="eli-desc">Wenige Gerichte. Jedes mit Haltung und klarer Identität.</span>
+                </div>
+              </div>
+              <div class="editorial-list-item">
+                <span class="eli-num">02</span>
+                <div>
+                  <span class="eli-title">Roh genug für Street</span>
+                  <span class="eli-desc">Kantig, kontrolliert – hochwertig ohne steif zu sein.</span>
+                </div>
+              </div>
+              <div class="editorial-list-item">
+                <span class="eli-num">03</span>
+                <div>
+                  <span class="eli-title">Food als Bühne</span>
+                  <span class="eli-desc">Jedes Gericht ist Story-Element, keine Verwaltung.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="editorial-visual reveal reveal-delay-1">
+            <div class="editorial-img-main">
+              <img src="assets/hero-signature.svg" alt="Smoked Alley Burger Illustration" />
+            </div>
+            <div class="editorial-float">
+              <span class="ef-label">Preis</span>
+              <span class="ef-value">€ 12,90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Menu Preview ───────────────────────── -->
+    <section class="section" style="background: var(--cream-2); border-top: 1px solid var(--line);">
+      <div class="container">
+        <div class="section-header section-hdr-row">
+          <div>
+            <span class="eyebrow reveal">Auswahl</span>
+            <h2 class="section-title reveal reveal-delay-1">Was auf der<br><em>Karte steht</em></h2>
+          </div>
+          <a href="menu.html" class="btn btn-outline reveal">Alle Gerichte →</a>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Smash Burger Feature -->
+          <article class="menu-item span-7 mi-h-lg reveal" data-category="burger" data-name="smoked alley burger">
+            <div class="menu-item-img" style="height:320px;">
+              <div class="special-badge">Bestseller</div>
+              <img src="assets/hero-signature.svg" alt="Smoked Alley Burger" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Burger</span>
+              <h3 class="menu-item-name">Smoked Alley Burger</h3>
+              <p class="menu-item-desc">Rind, geräucherter Käse, Pickles, rote Zwiebeln, dunkle Sauce, Brioche.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 12,90</span>
+                <span class="menu-item-tag">🔥 Beliebt</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Side column -->
+          <div class="span-5 reveal reveal-delay-1" style="display:grid;gap:16px;">
+            <article class="menu-item mi-h-sm" data-category="bowls" data-name="fire rice bowl">
+              <div class="menu-item-img" style="height:180px;">
+                <img src="assets/city-bowl.svg" alt="Fire Rice Bowl" />
+              </div>
+              <div class="menu-item-body">
+                <span class="menu-item-cat">Bowl</span>
+                <h3 class="menu-item-name">Fire Rice Bowl</h3>
+                <p class="menu-item-desc">Reis, Hähnchen, Edamame, Salsa und Sesam.</p>
+                <div class="menu-item-foot">
+                  <span class="menu-item-price">€ 11,80</span>
+                </div>
+              </div>
+            </article>
+            <article class="menu-item mi-h-sm" data-category="snacks" data-name="loaded fries">
+              <div class="menu-item-img" style="height:180px;">
+                <img src="assets/crunch-fries.svg" alt="Loaded Fries" />
+              </div>
+              <div class="menu-item-body">
+                <span class="menu-item-cat">Snack</span>
+                <h3 class="menu-item-name">Loaded Fries</h3>
+                <p class="menu-item-desc">Pommes, Käse-Sauce, Frühlingszwiebeln, Chili.</p>
+                <div class="menu-item-foot">
+                  <span class="menu-item-price">€ 6,90</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-name">Tobis Teller</div>
+          <p class="footer-brand-tag">Urban Fastfood mit Kante. Burger, Bowls und Snacks für Leute, die Hunger ernst nehmen.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="menu.html">Menü</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="hours.html">Öffnungszeiten</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Kontakt</div>
+          <ul class="footer-links-list">
+            <li><a href="contact.html">Musterstraße 24</a></li>
+            <li><a href="contact.html">50670 Köln</a></li>
+            <li><a href="hours.html">Di–So geöffnet</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Socials</div>
+          <ul class="footer-links-list">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">X / Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© <span data-year></span> Tobis Teller · Fiktives Projekt</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TK</a>
+          <a href="#" aria-label="X">𝕏</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

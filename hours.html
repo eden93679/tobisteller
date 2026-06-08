@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Öffnungszeiten – Tobis Teller</title>
+  <meta name="description" content="Öffnungszeiten von Tobis Teller. Dienstag bis Sonntag, Late Night freitags und samstags bis 01 Uhr." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <header class="site-header" style="position:sticky;top:0;z-index:100;">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Tobis Teller – Startseite">
+        <div class="brand-emblem">Tt</div>
+        <div class="brand-text">
+          <span class="brand-name">Tobis Teller</span>
+          <span class="brand-sub">Urban Fastfood · Köln</span>
+        </div>
+      </a>
+      <nav class="site-nav" id="site-nav" role="navigation">
+        <a href="index.html">Start</a>
+        <a href="menu.html">Menü</a>
+        <a href="about.html">Über uns</a>
+        <a href="hours.html">Öffnungszeiten</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+      <div class="header-cta">
+        <a href="menu.html" class="btn btn-primary btn-sm">Jetzt bestellen</a>
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Navigation öffnen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-inner">
+          <div class="page-hero-text">
+            <span class="eyebrow reveal">Wann wir da sind</span>
+            <h1 class="page-hero-title reveal reveal-delay-1">Spät offen.<br><em>Früh klar.</em></h1>
+            <p class="page-hero-desc reveal reveal-delay-2">
+              Tobis Teller öffnet dienstags bis sonntags. Freitagund Samstagnacht
+              bleiben wir bis 01:00 Uhr – für Abende, die noch nicht fertig sind.
+            </p>
+          </div>
+          <div class="page-hero-accent reveal reveal-delay-1">
+            <span class="pha-num">6</span>
+            <span class="pha-label">Tage pro Woche geöffnet</span>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Earliest</span>
+              <strong>12:00 Uhr</strong>
+            </div>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Latest</span>
+              <strong>01:00 Uhr</strong>
+            </div>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Late Night</span>
+              <strong>Freitag &amp; Samstag</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="hours-layout">
+
+          <!-- Weekly Hours -->
+          <article class="hours-card reveal">
+            <span class="eyebrow">Wochenübersicht</span>
+            <h2 class="hours-card-title">Reguläre Zeiten</h2>
+            <div class="hours-table">
+              <div class="hours-row" data-day="mon">
+                <span class="hours-day">Montag</span>
+                <span class="hours-time hours-closed">Ruhetag</span>
+              </div>
+              <div class="hours-row" data-day="tue">
+                <span class="hours-day">Dienstag</span>
+                <span class="hours-time">12:00 – 22:00</span>
+              </div>
+              <div class="hours-row" data-day="wed">
+                <span class="hours-day">Mittwoch</span>
+                <span class="hours-time">12:00 – 22:00</span>
+              </div>
+              <div class="hours-row" data-day="thu">
+                <span class="hours-day">Donnerstag</span>
+                <span class="hours-time">12:00 – 23:00</span>
+              </div>
+              <div class="hours-row" data-day="fri">
+                <span class="hours-day">Freitag</span>
+                <span class="hours-time">12:00 – 01:00 <span class="today-badge" style="background:var(--amber)">Late Night</span></span>
+              </div>
+              <div class="hours-row" data-day="sat">
+                <span class="hours-day">Samstag</span>
+                <span class="hours-time">14:00 – 01:00 <span class="today-badge" style="background:var(--amber)">Late Night</span></span>
+              </div>
+              <div class="hours-row" data-day="sun">
+                <span class="hours-day">Sonntag</span>
+                <span class="hours-time">14:00 – 21:00</span>
+              </div>
+            </div>
+            <p class="hours-note">
+              Bei Veranstaltungen oder Feiertagen können die Zeiten abweichen.
+              Einfach kurz bei uns anrufen oder auf Instagram nachschauen.
+            </p>
+          </article>
+
+          <!-- Service Modes -->
+          <div style="display:grid;gap:16px;">
+            <article class="service-card reveal reveal-delay-1">
+              <span class="eyebrow">Service-Modus</span>
+              <h2 class="service-card-title">Wann der Laden am stärksten läuft</h2>
+              <div class="service-grid">
+                <div class="service-item">
+                  <span class="service-name">🌤 Lunch Mode</span>
+                  <span class="service-time">12–15 Uhr</span>
+                </div>
+                <div class="service-item">
+                  <span class="service-name">🌆 After Work</span>
+                  <span class="service-time">17–20 Uhr</span>
+                </div>
+                <div class="service-item">
+                  <span class="service-name">🌙 Late Night</span>
+                  <span class="service-time">ab 20 Uhr</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card service-card-accent reveal reveal-delay-2">
+              <span class="eyebrow" style="color:var(--amber);--fire:var(--amber);">Late Night Special</span>
+              <h2 class="service-card-title">Freitag &amp; Samstag</h2>
+              <div class="service-grid">
+                <div class="service-item">
+                  <span class="service-name">Küche offen bis</span>
+                  <span class="service-time">00:30 Uhr</span>
+                </div>
+                <div class="service-item">
+                  <span class="service-name">Bar offen bis</span>
+                  <span class="service-time">01:00 Uhr</span>
+                </div>
+              </div>
+              <p class="hours-note">
+                Late Night ist unser bestes Set. Volle Karte, voller Laden,
+                der Smoked Alley im Dauereinsatz.
+              </p>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-name">Tobis Teller</div>
+          <p class="footer-brand-tag">Urban Fastfood mit Kante. Burger, Bowls und Snacks für Leute, die Hunger ernst nehmen.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="menu.html">Menü</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="hours.html">Öffnungszeiten</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Kontakt</div>
+          <ul class="footer-links-list">
+            <li><a href="contact.html">Musterstraße 24</a></li>
+            <li><a href="contact.html">50670 Köln</a></li>
+            <li><a href="hours.html">Di–So geöffnet</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Socials</div>
+          <ul class="footer-links-list">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">X / Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© <span data-year></span> Tobis Teller · Fiktives Projekt</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TK</a>
+          <a href="#" aria-label="X">𝕏</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

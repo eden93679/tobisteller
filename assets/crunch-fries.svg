@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Illustration von Snacks und Fries">
+  <rect width="900" height="900" rx="84" fill="#101010"/>
+  <path d="M220 610h460c20 0 36 16 36 36s-16 36-36 36H220c-20 0-36-16-36-36s16-36 36-36Z" fill="#8c4a1f"/>
+  <path d="M258 382h384c37 0 68 31 68 68 0 47-38 85-85 85H275c-47 0-85-38-85-85 0-37 31-68 68-68Z" fill="#ffd43a"/>
+  <path d="M290 404h320c22 0 40 18 40 40s-18 40-40 40H290c-22 0-40-18-40-40s18-40 40-40Z" fill="#e53935"/>
+  <circle cx="308" cy="386" r="16" fill="#fff7de"/>
+  <circle cx="378" cy="362" r="16" fill="#fff7de"/>
+  <circle cx="455" cy="382" r="16" fill="#fff7de"/>
+  <circle cx="528" cy="365" r="16" fill="#fff7de"/>
+  <circle cx="598" cy="390" r="16" fill="#fff7de"/>
+  <path d="M270 606c0-32 26-58 58-58h244c32 0 58 26 58 58" fill="none" stroke="#fff7de" stroke-width="18" stroke-linecap="round" opacity="0.45"/>
+</svg>

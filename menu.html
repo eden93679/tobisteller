@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menü – Tobis Teller</title>
+  <meta name="description" content="Die Speisekarte von Tobis Teller: Smash-Burger, Bowls, Snacks und Drinks. Frisch, direkt, kein Bullshit." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <header class="site-header" style="position:sticky;top:0;z-index:100;">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Tobis Teller – Startseite">
+        <div class="brand-emblem">Tt</div>
+        <div class="brand-text">
+          <span class="brand-name">Tobis Teller</span>
+          <span class="brand-sub">Urban Fastfood · Köln</span>
+        </div>
+      </a>
+      <nav class="site-nav" id="site-nav" role="navigation">
+        <a href="index.html">Start</a>
+        <a href="menu.html">Menü</a>
+        <a href="about.html">Über uns</a>
+        <a href="hours.html">Öffnungszeiten</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+      <div class="header-cta">
+        <a href="menu.html" class="btn btn-primary btn-sm">Jetzt bestellen</a>
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Navigation öffnen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-inner">
+          <div class="page-hero-text">
+            <span class="eyebrow reveal">Die Karte</span>
+            <h1 class="page-hero-title reveal reveal-delay-1">Vier Kategorien.<br><em>Viel Druck.</em></h1>
+            <p class="page-hero-desc reveal reveal-delay-2">
+              Das Menü ist bewusst klein gehalten: Jedes Gericht hat eine Aufgabe,
+              einen Charakter und einen Grund, auf dem Teller zu landen.
+            </p>
+          </div>
+          <div class="page-hero-accent reveal reveal-delay-1">
+            <span class="pha-num">18+</span>
+            <span class="pha-label">Gerichte zur Auswahl</span>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Burger</span>
+              <strong>5 Sorten</strong>
+            </div>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Bowls</span>
+              <strong>4 Sorten</strong>
+            </div>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Snacks</span>
+              <strong>4 Sorten</strong>
+            </div>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Drinks</span>
+              <strong>3+ Sorten</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+
+        <!-- Toolbar -->
+        <div class="menu-toolbar reveal">
+          <div class="cat-pills" role="group" aria-label="Menü-Kategorien">
+            <button class="cat-pill is-active" data-filter="all">Alle</button>
+            <button class="cat-pill" data-filter="burger">🍔 Burger</button>
+            <button class="cat-pill" data-filter="bowls">🥣 Bowls</button>
+            <button class="cat-pill" data-filter="snacks">🍟 Snacks</button>
+            <button class="cat-pill" data-filter="drinks">🥤 Drinks</button>
+          </div>
+          <div class="search-bar">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <label for="menuSearch" class="sr-only">Gericht suchen</label>
+            <input id="menuSearch" type="search" placeholder="Gericht suchen …" />
+          </div>
+        </div>
+
+        <!-- Grid -->
+        <div class="menu-grid" id="menuGrid">
+
+          <!-- BURGER -->
+          <article class="menu-item span-7 mi-h-lg reveal" data-category="burger" data-name="smoked alley burger">
+            <div class="menu-item-img">
+              <div class="special-badge">Bestseller</div>
+              <img src="assets/hero-signature.svg" alt="Smoked Alley Burger" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Burger</span>
+              <h2 class="menu-item-name">Smoked Alley Burger</h2>
+              <p class="menu-item-desc">Rind, geräucherter Käse, Pickles, rote Zwiebeln, dunkle Signature-Sauce, Brioche-Bun.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 12,90</span>
+                <span class="menu-item-tag">🔥 Beliebt</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-5 mi-h-lg reveal reveal-delay-1" data-category="burger" data-name="neon crunch burger">
+            <div class="menu-item-img">
+              <img src="assets/hero-signature.svg" alt="Neon Crunch Burger" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Burger</span>
+              <h2 class="menu-item-name">Neon Crunch Burger</h2>
+              <p class="menu-item-desc">Knusperpanade, Chili-Mayo, Slaw, Kräuter, softer Bun.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 13,40</span>
+                <span class="menu-item-tag">🌶 Scharf</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-4 mi-h-md reveal" data-category="burger" data-name="double kick burger">
+            <div class="menu-item-img">
+              <img src="assets/hero-signature.svg" alt="Double Kick Burger" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Burger</span>
+              <h2 class="menu-item-name">Double Kick Burger</h2>
+              <p class="menu-item-desc">Double Patty, Cheddar, Jalapeños und Smoke-Ketchup.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 14,50</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-4 mi-h-md reveal reveal-delay-1" data-category="burger" data-name="smash corner burger">
+            <div class="menu-item-img">
+              <img src="assets/hero-signature.svg" alt="Smash Corner Burger" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Burger</span>
+              <h2 class="menu-item-name">Smash Corner Burger</h2>
+              <p class="menu-item-desc">Röstig, kompakt, direkt: Käse, Gurke, Relish, Signature-Sauce.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 11,90</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-4 mi-h-md reveal reveal-delay-2" data-category="burger" data-name="chili street burger">
+            <div class="menu-item-img">
+              <img src="assets/hero-signature.svg" alt="Chili Street Burger" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Burger</span>
+              <h2 class="menu-item-name">Chili Street Burger</h2>
+              <p class="menu-item-desc">Scharfer Crunch, rote Zwiebeln und Tomatenjam.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 12,70</span>
+                <span class="menu-item-tag">🌶 Scharf</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- BOWLS -->
+          <article class="menu-item span-8 mi-h-lg reveal" data-category="bowls" data-name="fire rice bowl">
+            <div class="menu-item-img">
+              <div class="special-badge">House-Fav</div>
+              <img src="assets/city-bowl.svg" alt="Fire Rice Bowl" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Bowl</span>
+              <h2 class="menu-item-name">Fire Rice Bowl</h2>
+              <p class="menu-item-desc">Basmati-Reis, gegrilltes Hähnchen, Edamame, Limette, hausgemachte Salsa und geröstetem Sesam.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 11,80</span>
+                <span class="menu-item-tag">🔥 Beliebt</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-4 mi-h-lg reveal reveal-delay-1" data-category="bowls" data-name="urban veggie bowl">
+            <div class="menu-item-img">
+              <img src="assets/city-bowl.svg" alt="Urban Veggie Bowl" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Bowl · Veg</span>
+              <h2 class="menu-item-name">Urban Veggie Bowl</h2>
+              <p class="menu-item-desc">Geröstetes Gemüse, Kräuterreis, Feta, Zitrus-Dressing.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 11,40</span>
+                <span class="menu-item-tag">🌿 Veggie</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-6 mi-h-md reveal" data-category="bowls" data-name="seoul heat bowl">
+            <div class="menu-item-img">
+              <img src="assets/city-bowl.svg" alt="Seoul Heat Bowl" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Bowl</span>
+              <h2 class="menu-item-name">Seoul Heat Bowl</h2>
+              <p class="menu-item-desc">Kimchi-Style Gemüse, Reis, süße Glasur und Koriander.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 12,90</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-6 mi-h-md reveal reveal-delay-1" data-category="bowls" data-name="baja bowl">
+            <div class="menu-item-img">
+              <img src="assets/city-bowl.svg" alt="Baja Bowl" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Bowl · Veg</span>
+              <h2 class="menu-item-name">Baja Bowl</h2>
+              <p class="menu-item-desc">Mais, schwarze Bohnen, Avocado, Tomate, Crunch-Topping.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 12,20</span>
+                <span class="menu-item-tag">🌿 Veggie</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SNACKS -->
+          <article class="menu-item span-6 mi-h-md reveal" data-category="snacks" data-name="loaded fries">
+            <div class="menu-item-img">
+              <div class="special-badge">Must-Try</div>
+              <img src="assets/crunch-fries.svg" alt="Loaded Fries" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Snack</span>
+              <h2 class="menu-item-name">Loaded Fries</h2>
+              <p class="menu-item-desc">Crinkle-Pommes, Käse-Sauce, Frühlingszwiebeln und Chili-Flocken.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 6,90</span>
+                <span class="menu-item-tag">🔥 Beliebt</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-3 mi-h-md reveal reveal-delay-1" data-category="snacks" data-name="chili cheese bites">
+            <div class="menu-item-img">
+              <img src="assets/crunch-fries.svg" alt="Chili Cheese Bites" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Snack</span>
+              <h2 class="menu-item-name">Chili Cheese Bites</h2>
+              <p class="menu-item-desc">Knusprige Bites mit Käsefüllung und Dip.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 7,20</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-3 mi-h-md reveal reveal-delay-2" data-category="snacks" data-name="street corn cup">
+            <div class="menu-item-img">
+              <img src="assets/crunch-fries.svg" alt="Street Corn Cup" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Snack</span>
+              <h2 class="menu-item-name">Street Corn Cup</h2>
+              <p class="menu-item-desc">Mais, Limette, Chili und Käse.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 5,80</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-4 mi-h-sm reveal" data-category="snacks" data-name="onion rings">
+            <div class="menu-item-img">
+              <img src="assets/crunch-fries.svg" alt="Onion Rings" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Snack</span>
+              <h2 class="menu-item-name">Onion Rings</h2>
+              <p class="menu-item-desc">Goldbraun, salzig, perfekt zum Dippen.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 5,40</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DRINKS -->
+          <article class="menu-item span-4 mi-h-md reveal reveal-delay-1" data-category="drinks" data-name="citrus spark">
+            <div class="menu-item-img">
+              <img src="assets/drink.svg" alt="Citrus Spark" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Drink</span>
+              <h2 class="menu-item-name">Citrus Spark</h2>
+              <p class="menu-item-desc">Zitrus-Limo mit Kräuternote und viel Eis.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 3,90</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-4 mi-h-md reveal reveal-delay-2" data-category="drinks" data-name="cold brew rush">
+            <div class="menu-item-img">
+              <img src="assets/drink.svg" alt="Cold Brew Rush" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Drink</span>
+              <h2 class="menu-item-name">Cold Brew Rush</h2>
+              <p class="menu-item-desc">Kaltgebrühter Kaffee, Vanille und Karamell-Twist.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 4,30</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item span-4 mi-h-md reveal reveal-delay-3" data-category="drinks" data-name="mango jam soda">
+            <div class="menu-item-img">
+              <img src="assets/drink.svg" alt="Mango Jam Soda" />
+            </div>
+            <div class="menu-item-body">
+              <span class="menu-item-cat">Drink</span>
+              <h2 class="menu-item-name">Mango Jam Soda</h2>
+              <p class="menu-item-desc">Spritzig, fruchtig, klar auf dem Punkt.</p>
+              <div class="menu-item-foot">
+                <span class="menu-item-price">€ 4,10</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /menu-grid -->
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-name">Tobis Teller</div>
+          <p class="footer-brand-tag">Urban Fastfood mit Kante. Burger, Bowls und Snacks für Leute, die Hunger ernst nehmen.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="menu.html">Menü</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="hours.html">Öffnungszeiten</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Kontakt</div>
+          <ul class="footer-links-list">
+            <li><a href="contact.html">Musterstraße 24</a></li>
+            <li><a href="contact.html">50670 Köln</a></li>
+            <li><a href="hours.html">Di–So geöffnet</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Socials</div>
+          <ul class="footer-links-list">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">X / Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© <span data-year></span> Tobis Teller · Fiktives Projekt</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TK</a>
+          <a href="#" aria-label="X">𝕏</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

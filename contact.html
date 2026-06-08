@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt – Tobis Teller</title>
+  <meta name="description" content="Kontaktformular, Adresse und Social-Links von Tobis Teller in Köln." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <header class="site-header" style="position:sticky;top:0;z-index:100;">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Tobis Teller – Startseite">
+        <div class="brand-emblem">Tt</div>
+        <div class="brand-text">
+          <span class="brand-name">Tobis Teller</span>
+          <span class="brand-sub">Urban Fastfood · Köln</span>
+        </div>
+      </a>
+      <nav class="site-nav" id="site-nav" role="navigation">
+        <a href="index.html">Start</a>
+        <a href="menu.html">Menü</a>
+        <a href="about.html">Über uns</a>
+        <a href="hours.html">Öffnungszeiten</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+      <div class="header-cta">
+        <a href="menu.html" class="btn btn-primary btn-sm">Jetzt bestellen</a>
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Navigation öffnen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-inner">
+          <div class="page-hero-text">
+            <span class="eyebrow reveal">Sag Hallo</span>
+            <h1 class="page-hero-title reveal reveal-delay-1">Schreib uns,<br>wenn du <em>reden</em><br>willst.</h1>
+            <p class="page-hero-desc reveal reveal-delay-2">
+              Egal ob Feedback, Reservierungsanfrage oder einfach kurze Nachricht –
+              wir melden uns. Versprochen.
+            </p>
+          </div>
+          <div class="page-hero-accent reveal reveal-delay-1">
+            <span class="pha-num" style="font-size:2.8rem;">Köln</span>
+            <span class="pha-label">Unser Standort</span>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Adresse</span>
+              <strong>Musterstraße 24</strong>
+            </div>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>PLZ</span>
+              <strong>50670 Köln</strong>
+            </div>
+            <div class="pha-divider"></div>
+            <div class="pha-row">
+              <span>Viertel</span>
+              <strong>Neon District</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Form -->
+          <div class="contact-form-card reveal">
+            <span class="eyebrow">Kontaktformular</span>
+            <h2 class="form-title">Deine Nachricht an uns</h2>
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="name">Name</label>
+                  <input class="form-input" id="name" type="text" name="name" placeholder="Dein Name" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">E-Mail</label>
+                  <input class="form-input" id="email" type="email" name="email" placeholder="name@beispiel.de" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="subject">Betreff</label>
+                <input class="form-input" id="subject" type="text" name="subject" placeholder="Worum geht's?" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="message">Nachricht</label>
+                <textarea class="form-textarea" id="message" name="message" placeholder="Schreib uns kurz dein Anliegen …" required></textarea>
+              </div>
+              <button class="btn btn-fire" type="submit" style="width:100%;justify-content:center;">Nachricht senden</button>
+              <p class="form-hint">Demo-Formular ohne Backend. Visuell vollständig, technisch offline.</p>
+            </form>
+          </div>
+
+          <!-- Sidebar -->
+          <div class="contact-side">
+
+            <div class="contact-info-card reveal reveal-delay-1">
+              <span class="eyebrow">Adresse</span>
+              <h3 class="ci-title">Tobis Teller – Köln</h3>
+              <p class="ci-text">
+                Musterstraße 24<br />
+                50670 Köln · Deutschland<br /><br />
+                Zwischen Hauptbahnhof und Neon District.
+                Eingang auf der linken Seite des Blocks.
+              </p>
+              <div class="map-visual">
+                <div class="map-grid-bg"></div>
+                <div class="map-pin-dot">TT</div>
+                <span class="map-label">Neon District, Köln</span>
+              </div>
+            </div>
+
+            <div class="contact-info-card dark reveal reveal-delay-2">
+              <span class="eyebrow" style="color:var(--amber);">Social &amp; Community</span>
+              <h3 class="ci-title">Find uns online</h3>
+              <p class="ci-text" style="margin-bottom:16px;">Daily Drops, Behind-the-Scenes und Menü-Updates – alles zuerst auf unseren Channels.</p>
+              <div class="social-chips">
+                <a href="#" class="social-chip">Instagram</a>
+                <a href="#" class="social-chip">TikTok</a>
+                <a href="#" class="social-chip">X / Twitter</a>
+              </div>
+            </div>
+
+            <div class="contact-info-card reveal reveal-delay-3">
+              <span class="eyebrow">Öffnungszeiten</span>
+              <h3 class="ci-title">Heute da?</h3>
+              <p class="ci-text">Di–Do 12–22 Uhr · Do 12–23 Uhr · Fr 12–01 Uhr · Sa 14–01 Uhr · So 14–21 Uhr · Mo Ruhetag</p>
+              <div style="margin-top:16px;">
+                <a href="hours.html" class="btn btn-outline btn-sm">Alle Zeiten ansehen</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-name">Tobis Teller</div>
+          <p class="footer-brand-tag">Urban Fastfood mit Kante. Burger, Bowls und Snacks für Leute, die Hunger ernst nehmen.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="menu.html">Menü</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="hours.html">Öffnungszeiten</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Kontakt</div>
+          <ul class="footer-links-list">
+            <li><a href="contact.html">Musterstraße 24</a></li>
+            <li><a href="contact.html">50670 Köln</a></li>
+            <li><a href="hours.html">Di–So geöffnet</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Socials</div>
+          <ul class="footer-links-list">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">TikTok</a></li>
+            <li><a href="#">X / Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© <span data-year></span> Tobis Teller · Fiktives Projekt</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TK</a>
+          <a href="#" aria-label="X">𝕏</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
